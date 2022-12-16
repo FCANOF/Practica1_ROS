@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+
+    <include file="$(find fridacano_prueba)/launch/bringup_tbsim.launch">
+        <arg name="name" value="tbsim_1"/>
+        <arg name="keyboard_name" value="tbsim_kb_1"/>
+        <arg name="vel_topic" value="tbsim_vel_1"/>
+        <arg name="show_sim" value="true"/>
+        
+    </include>
+
+<!--     <include file="$(find fridacano_prueba)/launch/bringup_tbsim.launch">
+        <arg name="name" value="tbsim_2"/>
+        <arg name="keyboard_name" value="tbsim_kb_2"/>
+    </include> -->
+    <!-- <include file="$(find fridacano_prueba)/launch/bringup_tbsim.launch">
+        
+    </include> -->
+
+</launch>
